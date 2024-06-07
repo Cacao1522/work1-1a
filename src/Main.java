@@ -22,5 +22,7 @@ public class Main {
 		System.out.print(token.getPartOfSpeechLevel4()+" ");
 		}
 		System.out.println();
+		text = "吾輩は猫である。名前はまだ無い。";
+		String[] array = text.split("。");
 	}
 }
